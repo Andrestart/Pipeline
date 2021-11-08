@@ -66,9 +66,10 @@ dfaemet = pd.read_csv('data/dataframe_aemet.csv')
 #The date is already in Python date format by default, but the prec data are expressed floats in a string
 #separated by commas. Because of that, I am going to cast them in floats and replace the comma for a dot.
 #Apart from that, there is a value that is not a float, but a string ("Ip"), so will create a NaN instead.
-#I will use my function "comtodotandnan".
+#I will use my function "comtodotandnan" and then I will replace the NaN with the mean of the values in the column.
 
 dfaemet.prec = fapi.comtodotandnan(dfaemet.prec)
+dfaemet.prec = dfaemet.prec.fillna(value=dfaemet.prec.mean())
 
 #I am creating a new dataframe with the columns "fecha" and "prec".
 dfprec = dfaemet[['fecha','prec']]
