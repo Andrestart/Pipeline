@@ -21,3 +21,12 @@ The conclusions of my project are:<br />
     - The number of accidents per day and ranfall are not correlated in 2020.<br />
     - The most repeated rain pattern is no rain. <br />
     - There is a very significant drop in the number of accidents per day since March 14th, corresponding with the covid lockdown measures happened that exact day.<br />
+
+    You can check the libraries I have used and their documentation (if you click on them) below:<br />
+[numpy](https://numpy.org/doc/)<br />
+[pandas](https://pandas.pydata.org/docs/)<br />
+[requests](https://docs.python-requests.org/en/latest/user/quickstart/)<br />
+[plotly.express](https://plotly.com/python/plotly-express/)<br />
+[seaborn](https://seaborn.pydata.org/)<br />
+[plotly.graph_objects](https://plotly.com/python-api-reference/)<br />
+[os](https://docs.python.org/3/library/os.html)<br />
