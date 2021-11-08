@@ -94,28 +94,28 @@ cor.to_csv('new_dataframes/cor.csv')
 
 #Scatter plot
 scatacrain = px.scatter(dffinal, x="numacc", y="prec", width = 1000, height = 330)
-scatacrain.write_image('graphs/scatacrain.png')
+#scatacrain.write_image('graphs/scatacrain.png')
 
 #Scatter matrix
 scatmatr = px.scatter_matrix(dffinal)
-scatmatr.write_image('graphs/scatmatr.png')
+#scatmatr.write_image('graphs/scatmatr.png')
 
 #Rain per day in violin plot
 viorain = go.Figure(data=go.Violin(x=dffinal.prec, box_visible=True, line_color='black',
                                meanline_visible=True, fillcolor='cornflowerblue', opacity=0.8,
                                points="all", name='Rain per day in Madrid'))
-viorain.write_image('graphs/viorain.png')
+#viorain.write_image('graphs/viorain.png')
 
 #Accidents per day in violin plot
 vioac = go.Figure(data=go.Violin(x=dffinal.numacc, box_visible=True, line_color='black',
                                meanline_visible=True, fillcolor='indianred', opacity=0.8,
                                  points="all", name='Accidents per day in Madrid'))
-vioac.write_image('graphs/vioac.png')
+#vioac.write_image('graphs/vioac.png')
 
 #Rain per day in mm/m2
 rain = px.bar(newac, x='fecha', y='numacc')
-rain.write_image('graphs/rain.png')
+#rain.write_image('graphs/rain.png')
 
 #Accidents per day in barplot
 acc = px.bar(dffinal, x='fecha', y='prec')
-acc.write_image('graphs/acc.png')
+#acc.write_image('graphs/acc.png')
