@@ -21,5 +21,3 @@ The conclusions of my project are:<br />
     - The number of accidents per day and ranfall are not correlated in 2020.<br />
     - The most repeated rain pattern is no rain. <br />
     - There is a very significant drop in the number of accidents per day since March 14th, corresponding with the covid lockdown measures happened that exact day.<br />
-
-    - There is a very significant drop in the number of accidents per day since March 14th, corresponding with the covid lockdown measures happened that exact day.<br />
