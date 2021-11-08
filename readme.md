@@ -9,7 +9,7 @@ The data I have studied are:
     - Number of accidents in Madrid during 2020.
     - Evolution of both along the year.
 
-The conclusions of my project are:
-    - The number of accidents per day and ranfall are not correlated in 2020.
-    - The most repeated rain pattern is no rain.
-    - There is a very significant drop in the number of accidents per day since March 14th, corresponding with the covid lockdown measures happened that exact day.
+The conclusions of my project are:\n
+    - The number of accidents per day and ranfall are not correlated in 2020. \n
+    - The most repeated rain pattern is no rain.\n
+    - There is a very significant drop in the number of accidents per day since March 14th, corresponding with the covid lockdown measures happened that exact day.\n
